@@ -1,1 +1,3 @@
-export { default as NavbarMenu } from './NavbarMenu.vue'
+export { default as PageLayout } from './PageLayout.vue'
+
+export { default as DesktopSidebar } from './DesktopSidebar.vue'

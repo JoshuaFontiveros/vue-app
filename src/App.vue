@@ -1,9 +1,9 @@
 <script setup lang="ts">
+import { PageLayout } from './components'
 import { RouterView } from 'vue-router'
-import { NavbarMenu } from './components'
 </script>
 
 <template>
-  <NavbarMenu />
+  <PageLayout />
   <RouterView />
 </template>
