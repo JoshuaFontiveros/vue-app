@@ -1,28 +1,42 @@
-const sideNavigation = [
+import { HomeIcon, BarChart2, Settings, AlignJustify, Pencil } from 'lucide-vue-next'
+
+interface SideNavigationItem {
+  id: string
+  label: string
+  href: string
+  icon: typeof HomeIcon
+}
+
+const sideNavigation: SideNavigationItem[] = [
   {
     id: 'home',
     label: 'Home',
-    href: '#'
+    href: '/',
+    icon: HomeIcon
   },
   {
     id: 'templates',
     label: 'Templates',
-    href: '#'
+    href: '#',
+    icon: Pencil
   },
   {
     id: 'documents-library',
     label: 'Documents Library',
-    href: '#'
+    href: '#',
+    icon: AlignJustify
   },
   {
     id: 'data-sources',
     label: 'Data Sources',
-    href: '#'
+    href: '#',
+    icon: BarChart2
   },
   {
     id: 'settings',
     label: 'Settings',
-    href: '#'
+    href: '#',
+    icon: Settings
   }
 ]
 

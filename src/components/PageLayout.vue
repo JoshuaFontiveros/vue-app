@@ -24,6 +24,7 @@ import {
 } from '@heroicons/vue/24/outline'
 
 import { ChevronDownIcon, MagnifyingGlassIcon } from '@heroicons/vue/20/solid'
+import { DesktopSidebar } from '.'
 
 const navigation = [
   { name: 'Dashboard', href: '#', icon: HomeIcon, current: true },
@@ -254,6 +255,8 @@ export default {
         </nav>
       </div> -->
     </div>
+
+    <DesktopSidebar />
 
     <!-- mobile sidebar -->
     <div class="lg:pl-72">
